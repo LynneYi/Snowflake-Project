@@ -1,15 +1,14 @@
-
-create table pizza_sales as (
-    pizza_id numeric(50,0),
-    order_id numeric(50,0),
-    pizza_name_id varchar(128),
-    quantity numeric(50,0),
-    order_date varchar(128),
-    order_time varchar(128),
-    unit_price numeric(50,2),
-    total_price numeric(50,2),
-    pizza_size varchar(128), 
-    pizza_category varchar(128), 
-    pizza_ingredients varchar(128), 
-    pizza_name varchar(128)    
-)
+create or replace TABLE PIZZASUMMARY.PIZZASUMMARY.PIZZA_SALES (
+	PIZZA_ID NUMBER(38,0),
+	ORDER_ID NUMBER(38,0),
+	PIZZA_NAME_ID VARCHAR(128),
+	QUANTITY NUMBER(38,0),
+	ORDER_DATE VARCHAR(128),
+	ORDER_TIME VARCHAR(128),
+	UNIT_PRICE NUMBER(38,2),
+	TOTAL_PRICE NUMBER(38,2),
+	PIZZA_SIZE VARCHAR(128),
+	PIZZA_CATEGORY VARCHAR(128),
+	PIZZA_INGREDIENTS VARCHAR(128),
+	PIZZA_NAME VARCHAR(128)
+);
