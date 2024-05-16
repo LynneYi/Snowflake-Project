@@ -10,4 +10,4 @@
 ---------------Script Start Here------------------
 SELECT 
   SUM(total_price) AS Total_Revenue 
-From pizza_sales 
+From PIZZASUMMARY.PIZZASUMMARY.pizza_sales 
