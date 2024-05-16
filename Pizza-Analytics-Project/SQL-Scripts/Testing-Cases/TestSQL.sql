@@ -3,7 +3,7 @@
 
 -- Task 1 SQl Query for KPIs
 -- 1.1 Total Revenue
-SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales;
+SELECT SUM(total_price) AS Total_Revenue FROM pizzasummary.pizzasummary.pizza_sales;
 
 -- 1,2 Average Order Results
 SELECT (SUM(total_price) / COUNT(DISTINCT order_id)) AS Avg_order_Value FROM pizza_sales;
