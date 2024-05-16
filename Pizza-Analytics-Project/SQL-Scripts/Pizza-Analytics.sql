@@ -4,7 +4,7 @@
 -- Changelog:
  -- Draft Created on 16/05/2024 by Lynne
  -- v0.1 Created on <DD/MM/YYYY> by Lynne for <Reason>
- -- v0.2 Created on <DD/MM/YYYY> by Lynne for calculating total revenue
+ -- v0.2 Created on <DD/MM/YYYY> by Lynne for calculating KPI
 */
 
 ---------------Script Start Here------------------
