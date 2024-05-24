@@ -12,3 +12,7 @@ SELECT
   SUM(total_price) AS Total_Revenue 
 From PIZZASUMMARY.PIZZASUMMARY.pizza_sales 
 ;
+
+SELECT PIZZA_ID
+FROM PIZZASUMMARY.PIZZASUMMARY.pizza_sales
+;
